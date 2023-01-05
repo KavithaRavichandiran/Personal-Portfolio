@@ -200,7 +200,7 @@ nav ul li a {
 }
 /* End About */
 
-/* Restaurant Menu */
+/* cards */
 .category {
   list-style: none;
   text-align: center;
@@ -219,19 +219,19 @@ nav ul li a {
   color: var(--clr-primary);
 }
 
-.portfolio-card {
+.restaurent-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.card-item {
+.menu-item {
   width: 260px;
   margin: 0 auto;
   border-radius: 6px;
   overflow: hidden;
 }
 
-.card-item img {
+.menu-item img {
   width: 100%;
 }
 
