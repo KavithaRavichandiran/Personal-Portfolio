@@ -219,19 +219,19 @@ nav ul li a {
   color: var(--clr-primary);
 }
 
-.restaurant-menu {
+.portfolio-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.menu-item {
+.card-item {
   width: 260px;
   margin: 0 auto;
   border-radius: 6px;
   overflow: hidden;
 }
 
-.menu-item img {
+.card-item img {
   width: 100%;
 }
 
