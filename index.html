@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>personal portfolio</title>
+  <link rel="stylesheet" href="../stylesheet/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu">
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <ion-icon name="grid-outline"></ion-icon>
+      </label>
+
+      <!--<label class="logo mt-4">Good Evening</label>-->
+      <label>
+
+        <div class="wrapper">
+
+
+          <h1 id="greeting" onclick="updateGreeting()"></h1>
+
+        </div>
+
+      </label>
+
+      <ul>
+        <li><a href="#hero-section" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#testimonial">Projects</a></li>
+
+        <li><a href="#app">Download CV</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- End Menu -->
+
+  <!-- Hero Section -->
+  <div class="section flex" id="hero-section">
+    <div class="text">
+      <div class="primary">
+
+        Hi , This is <span style="color:#c76541">Kavitha</span>
+
+        <div class="mt-3">Full Stack Developer based in Chennai</div>
+      </div>
+
+      <div class="d-flex social_icons mt-4">
+        <div>
+          <a href="https://www.linkedin.com/in/kavitha-ravichandiran-84078022a">
+            <ion-icon class="about_btn" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/KavithaRavichandiran">
+
+            <ion-icon class="about_btn" name="logo-github">
+
+            </ion-icon>
+          </a>
+        </div>
+        <div>
+
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+            <ion-icon class="about_btn" name="mail-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="visual">
+      <img src="../app/assests/visual-1.jpg" alt="" />
+    </div>
+  </div>
+  <!-- End Hero Section -->
+
+  <!-- How It Works -->
+
+  <!-- End How It Works -->
+
+  <!-- About -->
+  <div class="section mt-5" id="about">
+    <div class="container flex">
+      <div class="visual">
+        <img src="../assests/woman-working-using-laptop-flat-design_1308-91907.avif" alt="" />
+      </div>
+      <div class="text">
+        <div class="secondary d-flex justify-content-center align-items-center">Get Know about me :)</div>
+
+        <div class="mt-3 border_line"></div>
+        <div class="about_contents mt-3">
+          Committed and goal-oriented computer science graudate looking to pursue a career in the software engineering
+          domain.Posses excellent knowledge in <span class="Skills">HTML, CSS, Javascript and Core Java .</span> Ability
+          to learn things quickly and capable of working in a fast-paced and team-driven environment.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About -->
+
+
+  <!-- Skills -->
+  <div class="section mt-4" id="skills">
+    <div class="container">
+
+      <div class="secondary" style="text-align: center;">Skills</div>
+
+
+      <div class="container mt-4">
+        <div class="skills_items">
+          <div class="row">
+            <div class="col-4 skills_item">
+              <div class="item_content">
+                <img class="images" src="../assests/png-transparent-logo-html-html5.png" alt="" />
+                <div class="title">HTML</div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content">
+                <img class="images" src="../assests/logo-css.webp" alt="" />
+                <div class="title">CSS</div>
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content">
+                <img class="images" src="../assests/javascript-badge.png" alt="" />
+
+
+
+                <div class="title">JS</div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images" src="../assests/bootstrap.png" alt="" />
+
+                <div class="title">Bootstrap </div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images" src="../assests/reactjs.png" alt="" />
+
+                <div class="title">ReactJS</div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images" src="../assests/java.png" alt="" />
+
+                <div class="title">Java</div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+          </div>
+          <!--<div class="row">
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images"
+                  src="https://www.pngitem.com/pimgs/m/31-312155_c-programming-language-logo-hd-png-download.png"
+                  alt="" />
+
+
+                <div class="title">C</div>
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images" src="assests/mysql.png" alt="" />
+
+                <div class="title">MySQL</div>
+
+
+
+              </div>
+            </div>
+            <div class="col-4 skills_item">
+              <div class="item_content mt-4">
+                <img class="images" src="assests/github.png" alt="" />
+
+                <div class="title">GitHub</div>
+
+                <div class="location"></div>
+
+
+              </div>
+            </div>
+          </div>-->
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="wor_section mt-4" id="how-it-works">
+    <h2 class="secondary">Capablilities</h2>
+    <div class="mt-3 border_line"></div>
+    <div class="container works mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="box">
+            <div>Efficiency</div>
+            <ion-icon name="timer-outline"></ion-icon>
+            <p class="content">
+
+
+              Time efficiency offers a way to take control of our daily routine and start to use our time to our
+              advantage.
+              When we're efficient, we're not wasting our precious hours; instead, we're understanding how to make
+              ourselves
+              the most productive in the shortest amount of time.
+
+
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+          <div class="box active">
+            <div>Critial Thinking</div>
+            <ion-icon name="trophy-outline"></ion-icon>
+            <p class="content">
+
+
+              Critical thinking helps us deal with everyday problems as they come our way, and very
+              often this thought process is even done subconsciously.
+              It helps us think independently and trust our gut feeling.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="box">
+            <div>Problem solving</div>
+            <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+            <p class="content">
+
+
+              Problem-solving skills help you determine why an issue is happening and how to resolve that issue.
+              It's one of the key skills that employers seek in job applicants. Problem-solving starts with identifying
+              the
+              issue, coming up with solutions,
+              implementing those solutions, and evaluating their effectiveness.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!-- Testimonial -->
+  <div class="section" id="testimonial">
+    <div class="container flex mt-5">
+      <div class="text">
+        <h2 class="section_title">Little Bit About My Projects</h2>
+        <p>
+        <div class="mt-4">I have done some projects using <span class="Skills">HTML ,CSS and Javascript</span> </div>
+        </p>
+
+
+      </div>
+      <div class="visual">
+        <img src="../assests/visual-4.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonial -->
+
+  <!-- FAQ -->
+  <!-- How It Works 2nd card-->
+  <div class="section mt-5" id="how-it-works">
+
+    <div class="secondary">Projects</div>
+    <div class="box mt-4">
+      <div class="app_btn">Todo List</div>
+
+      <ion-icon name="accessibility-outline"></ion-icon>
+      <div class="app_content">
+        This is Todo-List application in which you can add your daily tasks, edit and delete
+        it as you want i have javascript to create this application
+      </div>
+      <a href="https://kavitharavichandiran.github.io/Todo-list/" class="btn btn-menu">Visit page</a>
+
+    </div>
+
+    <div class="box mt-5">
+      <div class="app_btn">Personal Portfolio</div>
+
+      <ion-icon name="accessibility-outline"></ion-icon>
+      <div class="app_content">
+        This is my Personal Portfolio, where you can know
+        more about me!!!
+      </div>
+      <a href="https://kavitharavichandiran.github.io/Personal-Portfolio/" class="btn btn-menu">Visit page</a>
+    </div>
+  </div>
+  </div>
+  <!-- End How It Works -->
+  <!--2nd card-->
+  </div>
+  </div>
+
+
+  <!---- Menu -->
+
+  <!-- End FAQ -->
+
+  <!-- App -->
+  <div class="section mt-5" id="app">
+    <div class="container d-flex align-items-center justify-content-center">
+      <div class="visual">
+        <img
+          src="https://thumbs.dreamstime.com/b/professional-development-programmer-working-programming-website-software-coding-technology-writing-codes-data-code-132331729.jpg"
+          alt="" />
+      </div>
+
+      <div class="">
+
+        <h2 class="secondary">Download my page<h2>
+
+            <div class="download_content mt-5">
+
+              Click here to Download the Resume
+
+            </div>
+
+            <div class="mt-3">
+
+              <a href="kavitha_resume_new(1)(1)" class="download_btn" download><span></span>Download CV</a>
+            </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End App -->
+
+  <!-- Footer -->
+  <!-- <div class="footer">
+    <div class="container flex">
+    </div>
+
+    <div class="footer-category">
+
+      <div class="get-in-touch">
+        <h2>
+          <center>Get in touch</center>
+        </h2>
+
+
+        <div class="top">
+
+          <div class="github">
+
+
+            <a href="https://github.com/KavithaRavichandiran">
+              <center><img src="https://icons.iconarchive.com/icons/artcore-illustrations/artcore-4/96/github-icon.png"
+                  alt=""></center>
+            </a>
+
+          </div>
+          <div class="linkedin"></div>
+          <a href="https://www.linkedin.com/in/kavitha-ravichandiran-84078022a">
+            <center><img src="https://icons.iconarchive.com/icons/hopstarter/sleek-xp-software/96/Linked-In-icon.png"
+                alt=""></center>
+          </a>
+
+
+          <div class="emailid"></div>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+            <center><img src="https://icons.iconarchive.com/icons/graphicloads/100-flat/96/email-2-icon.png"></center>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!--   BTN   -->
+
+  <!-- End Footer -->
+
+  <!-- Ion Icons Js -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <script>
+    function updateGreeting() {
+      const greetingElement = document.getElementById('greeting');
+      const currentTime = new Date();
+      const hour = currentTime.getHours();
+
+      let greeting = '';
+
+      if (hour >= 0 && hour < 6) {
+        greeting = 'Good night!';
+      } else if (hour >= 6 && hour < 12) {
+        greeting = 'Good morning!';
+      } else if (hour >= 12 && hour < 18) {
+        greeting = 'Good afternoon!';
+      } else {
+        greeting = 'Good evening!';
+      }
+
+      greetingElement.textContent = greeting;
+    }
+
+    // Call the function to update the greeting when the page loads
+    updateGreeting();
+
+  </script>
+
+</body>
+
+</html>
